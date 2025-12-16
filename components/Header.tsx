@@ -35,17 +35,6 @@ const Header: React.FC = () => {
             <XIcon className="w-[2.4vh] h-[2.4vh]" />
           </a>
 
-          {/* pump.fun link */}
-          <a
-            href={coinUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center space-x-.4 text-gray-400 hover:text-white transition-colors font-bold text-[2.64vh]"
-          >
-            <img src={pillChristmas} alt="Christmas Pill" className="w-[2.4vh] h-[2.4vh] mr-1 sm:mr-[1vh] object-contain" />
-            <span className="hidden sm:inline">pump.fun</span>
-          </a>
-
           {/* Buy Now button */}
           <a
             href={coinUrl}
