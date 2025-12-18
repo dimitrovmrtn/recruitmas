@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AnimatedSection from './AnimatedSection';
-import helmetLogo from './icons/RecruitHat.jpg';
+import helmetLogo from './icons/RecruitHat.png';
 
 const Hero: React.FC = () => {
   const [copied, setCopied] = useState(false);

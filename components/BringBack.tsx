@@ -1,13 +1,13 @@
 import React from 'react';
 import AnimatedSection from './AnimatedSection';
 import PillIcon from './icons/PillIcon';
-import helmetLogo from './icons/RecruitHat.jpg';
+import helmetLogo from './icons/RecruitHat.png';
 import pillChristmas from './icons/PillChristmasV2.png';
 
 import christmasPattern from './icons/ChristmasPattern.png';
 
 const BringBack: React.FC = () => {
-  const coinUrl = "https://pump.fun";
+  const coinUrl = "https://pump.fun/coin/BvefaUMa6t6RYzYHYHN8mtLUL8LGCSF5a6oXX7Ynpump";
 
   return (
     <section className="py-[9vh] sm:py-[15vh] bg-gradient-to-b from-red-950 to-black text-center relative overflow-hidden">

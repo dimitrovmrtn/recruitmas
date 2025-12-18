@@ -6,7 +6,7 @@ import dollaSign from './icons/dollasign.png'; // ✅ import your PNG instead
 import pillChristmas from './icons/PillChristmasV2.png';
 
 const Header: React.FC = () => {
-  const coinUrl = "https://pump.fun";
+  const coinUrl = "https://pump.fun/coin/BvefaUMa6t6RYzYHYHN8mtLUL8LGCSF5a6oXX7Ynpump";
 
   return (
     <header className="py-2 sm:py-[1.5vh] px-4 sm:px-[3vh] lg:px-[4vh] bg-[#1a1a1a] bg-opacity-80 backdrop-blur-md sticky top-0 z-50">

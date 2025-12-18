@@ -7,7 +7,7 @@ import dollaSign from './icons/dollasign.png'; // use PNG instead of component
 import pillChristmas from './icons/PillChristmasV2.png';
 
 const HowToBuy: React.FC = () => {
-  const coinUrl = "https://pump.fun";
+  const coinUrl = "https://pump.fun/coin/BvefaUMa6t6RYzYHYHN8mtLUL8LGCSF5a6oXX7Ynpump";
 
   const steps = [
     'DOWNLOAD PUMP.FUN',
