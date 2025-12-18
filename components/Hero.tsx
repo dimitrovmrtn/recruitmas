@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AnimatedSection from './AnimatedSection';
 import helmetLogo from './icons/RecruitHat.png';
 
-export const contractAddress = 'CA coming soon... Check X for update!';
+export const contractAddress = '5XU57fgsryg2kTmiJkcc6omyPCETgm6k2LYquGDJpump';
 
 const Hero: React.FC = () => {
   const [copied, setCopied] = useState(false);
