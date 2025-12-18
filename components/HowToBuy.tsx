@@ -5,9 +5,10 @@ import XIcon from './icons/XIcon';
 import LivePumpFunIcon from './icons/PumpFunIcon';
 import dollaSign from './icons/dollasign.png'; // use PNG instead of component
 import pillChristmas from './icons/PillChristmasV2.png';
+import { contractAddress } from './Hero';
 
 const HowToBuy: React.FC = () => {
-  const coinUrl = "https://pump.fun/coin/BvefaUMa6t6RYzYHYHN8mtLUL8LGCSF5a6oXX7Ynpump";
+  const coinUrl = "https://pump.fun/coin/" + contractAddress;
 
   const steps = [
     'DOWNLOAD PUMP.FUN',

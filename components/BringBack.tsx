@@ -5,9 +5,10 @@ import helmetLogo from './icons/RecruitHat.png';
 import pillChristmas from './icons/PillChristmasV2.png';
 
 import christmasPattern from './icons/ChristmasPattern.png';
+import { contractAddress } from './Hero';
 
 const BringBack: React.FC = () => {
-  const coinUrl = "https://pump.fun/coin/BvefaUMa6t6RYzYHYHN8mtLUL8LGCSF5a6oXX7Ynpump";
+  const coinUrl = "https://pump.fun/coin/" + contractAddress;
 
   return (
     <section className="py-[9vh] sm:py-[15vh] bg-gradient-to-b from-red-950 to-black text-center relative overflow-hidden">
@@ -17,7 +18,7 @@ const BringBack: React.FC = () => {
           JOIN THE TRENCHES
         </h2>
         <div className="mt-[6vh] flex justify-center relative">
-          <img src={pillChristmas} alt="Christmas Pill" className="absolute -top-[5vh] -z-0 w-[24vh] h-[24vh] opacity-20 object-contain" />
+          {/* <img src={pillChristmas} alt="Christmas Pill" className="absolute -top-[5vh] -z-0 w-[24vh] h-[24vh] opacity-20 object-contain" /> */}
           <img src={helmetLogo} alt="$RECRUITMAS Helmet Logo" className="w-full max-w-[79vh] drop-shadow-2xl" />
         </div>
         <div className="mt-[4vh] mx-auto max-w-[85vh] backdrop-blur-[3px] bg-black/[0.15] rounded-3xl p-6 border border-white/10 shadow-xl">
